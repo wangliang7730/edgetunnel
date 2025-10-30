@@ -1,6 +1,6 @@
 
 import { connect } from 'cloudflare:sockets';
-
+let a=0;
 let userID = '';
 let proxyIP = '';
 let sub = '';
@@ -2192,4 +2192,5 @@ async function KV(request, env, txt = 'ADD.txt') {
 			headers: { "Content-Type": "text/plain;charset=utf-8" }
 		});
 	}
+
 }
